@@ -3,6 +3,7 @@
   padding: 0;
 
   --dark-background-color: #1f2937;
+  --white-text-color: #f9faf8;
 }
 
 ul {
@@ -37,6 +38,7 @@ body > * {
 }
 
 .header {
+  color: var(--white-text-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
